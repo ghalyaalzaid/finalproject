@@ -1,0 +1,62 @@
+
+h1 {
+    text-align: center;
+    font-family: days -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    margin-top: 5px;
+}
+.bar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    height: 70px;
+    left: 0px;
+    background: #98f3dd;
+}
+.obj {
+    list-style-type: none;
+    height: 30px;
+}
+img {
+    width: 60px;
+    position: absolute;
+    top: 0;
+}
+.logo {
+    margin-left: 60px;
+   position: absolute; 
+   padding: 14px 14px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 15px;
+}
+.main {
+    padding: 10px;
+    float: right;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+.main:hover {
+    text-shadow: 3px 3px 3px rgba(68, 67, 67, 0.822);
+}
+.about {
+    padding: 10px;
+    float: right;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+.about:hover {
+    text-shadow: 3px 3px 3px rgba(68, 67, 67, 0.822);
+}
+.contact {
+    padding: 10px;
+    float: right;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+.contact:hover {
+    text-shadow: 3px 3px 3px rgba(68, 67, 67, 0.822);
+}
