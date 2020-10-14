@@ -52,15 +52,6 @@ body {
 .about:hover {
     text-shadow: 3px 3px 3px rgba(68, 67, 67, 0.822);
 }
-.contact {
-    padding: 10px;
-    float: right;
-    font-size: 25px;
-    text-decoration: none;
-    color: black;
-}
-.contact:hover {
-    text-shadow: 3px 3px 3px rgba(68, 67, 67, 0.822);
 }
 .font {
     text-align: center;
@@ -89,6 +80,8 @@ body {
 .doctor {
     list-style-type: none;
     align-items: center;
+    display: flex;
+    justify-content: space-around;
 }
 .choice {
     background-color: #c4c4c4;
@@ -106,13 +99,15 @@ body {
 }
 .docname {
     background-color: #c4c4c4;
-    width: 190px;
+    width: 220px;
     height: 50px;
     font-size: 35px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    border-radius: 20px;
+    align-items: center;
 }
 .parg {
     text-align: center;
@@ -125,4 +120,11 @@ body {
 }
 .insta:hover {
     box-shadow: 10px 10px 10px rgba(46, 46, 46, 0.911);
+    height: 50px;
+}
+.con1 {
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    padding: 5px;
 }
