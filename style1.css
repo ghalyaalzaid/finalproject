@@ -52,7 +52,6 @@ body {
 .about:hover {
     text-shadow: 3px 3px 3px rgba(68, 67, 67, 0.822);
 }
-}
 .font {
     text-align: center;
     font-size: 26px;
@@ -120,11 +119,38 @@ body {
 }
 .insta:hover {
     box-shadow: 10px 10px 10px rgba(46, 46, 46, 0.911);
-    height: 50px;
 }
 .con1 {
     width: 50px;
     border-radius: 50%;
     float: left;
     padding: 5px;
+}
+.about-div {
+align-items: center;
+text-align: center;
+padding-top: 100px;
+}
+.about-h2 {
+    font-weight: 600;
+    font-size: 2.2rem;
+    letter-spacing: -.025em;
+    margin-bottom: 1.5rem;
+}
+.about-p {
+    color: rgb(99, 99, 99);
+    font-size: 16px;
+}
+.about-img {
+    align-items: center;
+}
+.about-icon {
+    display: flex;
+    justify-content: center;
+}
+.about-hov {
+    border-radius: 50%;
+}
+.about-hov:hover {
+    box-shadow: 6px 6px 6px rgba(46, 46, 46, 0.918);
 }
